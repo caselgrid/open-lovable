@@ -28,20 +28,24 @@ export const appConfig = {
   // AI Model Configuration
   ai: {
     // Default AI model
-    defaultModel: 'moonshotai/kimi-k2-instruct',
+    defaultModel: 'cerebras/qwen-3-235b-a22b-instruct-2507',
     
     // Available models
     availableModels: [
       'openai/gpt-5',
       'moonshotai/kimi-k2-instruct',
-      'anthropic/claude-sonnet-4-20250514'
+      'anthropic/claude-sonnet-4-20250514',
+      'cerebras/qwen-3-235b-a22b-instruct-2507',
+      'cerebras/gpt-oss-120b'
     ],
     
     // Model display names
     modelDisplayNames: {
       'openai/gpt-5': 'GPT-5',
       'moonshotai/kimi-k2-instruct': 'Kimi K2 Instruct',
-      'anthropic/claude-sonnet-4-20250514': 'Sonnet 4'
+      'anthropic/claude-sonnet-4-20250514': 'Sonnet 4',
+      'cerebras/qwen-3-235b-a22b-instruct-2507': 'Qwen 3 235B Instruct',
+      'cerebras/gpt-oss-120b': 'GPT OSS 120B'
     },
     
     // Temperature settings for non-reasoning models
